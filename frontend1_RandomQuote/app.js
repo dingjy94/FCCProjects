@@ -37,6 +37,7 @@ class Application extends React.Component {
   
   changeQuote(e) {
     e.preventDefault();
+    // Random generate the index of quote
     const newId = Math.floor(Math.random() * 5);
     const newQuote = QUOTES[newId];
     const newAuthor = AUTHORS[newId];
