@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(115, 168, 87);
+  #quote-box {
+    background-color: white;
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+    width: 30rem;
+    color: rgb(115, 168, 87);
+    #text {
+      text-align: center;
+      font-weight: bold;
+      font-size: x-large;
+    }
+    #author {
+      margin-top: 1rem;
+      text-align: right
+    }
+    #quote-bar {
+      display: flex;
+      padding-top: 1rem;
+      justify-content: space-between;
+      button {
+        background-color: rgb(115, 168, 87);
+        color: white;
+        border: none;
+        border-radius: 0.1rem;
+        height: 2rem;
+        cursor: pointer;
+      }
+  }
+  }
+}
