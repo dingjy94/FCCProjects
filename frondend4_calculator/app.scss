@@ -1,0 +1,52 @@
+body {
+  height: 100vh;
+  
+  #app {
+    height: 30rem;
+    width: 20rem;
+    border: thin black solid;
+    display: flex;
+    
+    #display {
+      height: 5rem;
+      background-color: black;
+      color: white;
+      text-align: right;
+      padding-top: 2.5rem;
+      box-sizing: border-box;
+      font-size: xx-large;
+    }
+    
+    #bottom {
+      width: 100%;
+      display: flex;
+      
+      #bottom1 {
+        width: 75%;
+        button {
+          width: 33.3%;
+          height: 5rem;
+        }
+
+        #zero {
+          width: 66.7%;
+        }
+      }  
+      
+      #equals {
+        height: 10rem;
+      }
+    }
+    
+    button {
+      width: 25%;
+      height: 5rem;
+      cursor: pointer;
+      font-size: large;
+    }
+    
+    #clear {
+      width: 50%;
+    }
+  }
+}
